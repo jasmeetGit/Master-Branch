@@ -4,7 +4,7 @@ public class publishEvents{
         Notification__e n = new Notification__e();
         n.message__c = message;
         EventBus.publish(n);
-        return 'succeeded';
+        return 'success';
     }
 
 }
